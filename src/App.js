@@ -15,6 +15,7 @@ class App extends React.Component
   {
     return(
       <>
+      <h2>This is a test app</h2>
       <Header/>
       <Routes>
           <Route path='/' element={<Home/>} />
